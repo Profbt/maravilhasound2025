@@ -1,10 +1,11 @@
 h1 {
     font-size: 50px;
     color: blue;
-    background-color: aqua;
+    background-color: yellow;
 }
 
 h2 {
     font-size: 60px;
     color: green;
+    background-color: red;
 }
