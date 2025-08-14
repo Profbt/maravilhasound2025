@@ -35,3 +35,6 @@ header {
      font-size: 25px;
     color: white;
 }
+ .nav_item:hover {
+    background-color:rgb(191, 4, 191) ;
+ }
