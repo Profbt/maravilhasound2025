@@ -55,6 +55,7 @@ header {
  .titulo {
     font-size: 4rem;
     color: #1d1d1d;
+    justify-content: center;
  }
 
  .titulocor {
