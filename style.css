@@ -49,6 +49,7 @@ header {
  .home {
     display: flex;
     min-height: calc(100vh - 91px);
+    margin-top: 91px;
  }
 
  section {
@@ -137,6 +138,7 @@ header {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 }
+
 
 @media (max-width: 480px) {
     header {
