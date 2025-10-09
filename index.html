@@ -1,83 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>maravilha sound</title>
-  </head>
 
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>maravilha sound</title>
+</head>
+
+<body>
     <header class="cabecalho">
-      <nav class="navbar">
-        <i class="fa-solid fa-music" id="logo"> Maravilha</i>
-        <!-- Menu Hamrburguer para mobile!-->
-        <button class="menu-toggle" id="menuToggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <ul class="nav_lista" id="navLista">
-          <li class="nav_item">Rock</li>
-          <li class="nav_item">Samba</li>
-          <li class="nav_item">Pagode</li>
-        </ul>
-      </nav>
+        <nav class="navbar">
+            <i class="fa-solid fa-music" id="logo"> Maravilha</i>
+            <!-- Menu Hamrburguer para mobile!-->
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav_lista" id="navLista">
+                <li class="nav_item">Rock</li>
+                <li class="nav_item">Samba</li>
+                <li class="nav_item">Pagode</li>
+            </ul>
+
+
+
+        </nav>
+
+
     </header>
 
     <main class="conteudo">
-      <section class="home">
-        <h1 class="titulo">
-          A melhor seleção de <span class="titulocor">músicas</span> de
-          Maravilha
-        </h1>
-      </section>
+        <section class="home">
+            <h1 class="titulo">
+                A melhor seleção de <span class="titulocor">músicas</span> de Maravilha
+            </h1>
+        </section>
 
-      <section class="secao" id="rock">
-        <div class="titulo_section">
-          <h1><i class="fa-brands fa-rockrms"></i> Rock</h1>
-        </div>
-        <ul class="moldura_videos">
-          <li class="video">
-            <iframe
-              width="1280"
-              height="720"
-              src="https://www.youtube.com/embed/A9Fy5GVpTRc"
-              title="Queen, Acdc, Nirvana, U2, Aerosmith, Led Zeppelin🔥Top 100 Best Classic Rock Songs Of All Time"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </li>
-        </ul>
-      </section>
+        <section class="secao" id="rock">
+            <div class="titulo_section">
+                <h1><i class="fa-brands fa-rockrms"></i> Rock</h1>
+            </div>
+            <ul class="moldura_videos">
+                <li class="video">
+                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/A9Fy5GVpTRc"
+                        title="Queen, Acdc, Nirvana, U2, Aerosmith, Led Zeppelin🔥Top 100 Best Classic Rock Songs Of All Time"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </li>
+                
+            </ul>
+        </section>
+
     </main>
     <script>
-      // JavaScript para controlar o menu hambúrguer
-      const menuToggle = document.getElementById("menuToggle");
-      const navLista = document.getElementById("navLista");
+        // JavaScript para controlar o menu hambúrguer
+        const menuToggle = document.getElementById('menuToggle');
+        const navLista = document.getElementById('navLista');
 
-      menuToggle.addEventListener("click", function () {
-        navLista.classList.toggle("active");
-        menuToggle.classList.toggle("active");
-      });
-
-      // Fechar menu ao clicar em um item
-      const navItems = document.querySelectorAll(".nav_item");
-      navItems.forEach((item) => {
-        item.addEventListener("click", function () {
-          navLista.classList.remove("active");
-          menuToggle.classList.remove("active");
+        menuToggle.addEventListener('click', function () {
+            navLista.classList.toggle('active');
+            menuToggle.classList.toggle('active');
         });
-      });
+
+        // Fechar menu ao clicar em um item
+        const navItems = document.querySelectorAll('.nav_item');
+        navItems.forEach(item => {
+            item.addEventListener('click', function () {
+                navLista.classList.remove('active');
+                menuToggle.classList.remove('active');
+            });
+        });
     </script>
-  </body>
+</body>
+
 </html>
