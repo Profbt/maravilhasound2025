@@ -58,6 +58,7 @@ header {
     color: white;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
  .nav_item:hover {
     background-color:rgb(191, 4, 191) ;
