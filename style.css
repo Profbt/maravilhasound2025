@@ -23,7 +23,7 @@
 header {
     width: 100%;
     padding: 20px 8%;
-    background-color: blueviolet;
+    background-color: var(--cor-primaria-3);
     position: fixed;
     top: 0;
     left: 0;
@@ -86,7 +86,7 @@ header {
  }
 
  .titulocor {
-    color: blueviolet;
+    color: var(--cor-primaria-3);
  }
 
  /* Menu hambúrguer para mobile */
@@ -127,7 +127,7 @@ header {
         left: -100%;
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: blueviolet;
+        background-color: var(--cor-primaria-3);
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
