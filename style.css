@@ -23,7 +23,7 @@
 header {
     width: 100%;
     padding: 20px 8%;
-    background-color: blueviolet;
+    background-color: var(--cor-primaria-4);
     position: fixed;
     top: 0;
     left: 0;
@@ -32,7 +32,7 @@ header {
 
 #logo {
     font-size: 1.5rem;
-    color: white;
+    color: var(--cor-secundaria-2);
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -55,13 +55,13 @@ header {
 
 .nav_item {
     font-size: 25px;
-    color: white;
+    color: var(--cor-secundaria-1);
     cursor: pointer;
     transition: all 0.3s ease;
 }
  .nav_item:hover {
-    background-color:rgb(191, 4, 191) ;
-    color: rgb(155, 153, 153);
+    background-color:var(--cor-primaria-5) ;
+    color: var(--cor-secundaria-1);
     text-decoration: underline;
  }
 
@@ -80,13 +80,13 @@ header {
 
  .titulo {
     font-size: 4rem;
-    color: #1d1d1d;
+    color: var(--cor-secundaria-2);
     text-align: center;
     width: 100%;
  }
 
  .titulocor {
-    color: blueviolet;
+    color: var(--cor-primaria-4);
  }
 
  .secao {
@@ -96,7 +96,7 @@ header {
  }
 
  .titulo_section {
-    color: var(--cor-primaria-3);
+    color: var(--cor-primaria-4);
     font-size: 1.5rem;
     text-align: left;
     margin-bottom: 20px;
@@ -124,7 +124,7 @@ header {
     height: auto;
     aspect-ratio: 16/9;
     border-radius: 15px;
-    border: 4px solid var(--cor-primaria-3);
+    border: 4px solid var(--cor-primaria-4);
  }
 
  /* Menu hambúrguer para mobile */
@@ -140,7 +140,7 @@ header {
 .menu-toggle span {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: var(--cor-secundaria-1);
     margin: 3px 0;
     transition: 0.3s;
 }
@@ -165,7 +165,7 @@ header {
         left: -100%;
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: blueviolet;
+        background-color: var(--cor-primaria-4);
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
